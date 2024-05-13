@@ -54,8 +54,8 @@
             <hr>
             <ul>
                 <Li *ngFor="let item of todoTransactions">
-                    <span class="trantractions-status"><mat-icon>hourglass_empty</mat-icon></span>
-                    <span class="transactions-details">{{ item.description }}</span>
+                    <span class="transaction-status"><mat-icon>hourglass_empty</mat-icon></span>
+                    <span class="transaction-details">{{ item.description }}</span>
                 </Li>
             </ul>
             <button class="button" (click)="onTodo()">View</button>

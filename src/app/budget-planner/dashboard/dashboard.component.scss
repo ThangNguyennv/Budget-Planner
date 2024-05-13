@@ -84,6 +84,10 @@ h2 {
     margin-bottom: 5px;
 }
 
+.total-item p {
+    margin-left: 10px;
+}
+
 h3 {
     color: #555;
     font-size: 16px;
@@ -105,7 +109,7 @@ ul {
     display: inline-block;
     width: 20px;
     height: 20px;
-    text-align: center;
+    text-align: center;     
 }
 
 .transaction-status mat-icon {

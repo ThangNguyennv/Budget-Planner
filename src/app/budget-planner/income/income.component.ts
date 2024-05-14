@@ -88,7 +88,7 @@ export class IncomeComponent {
   }
 
   onChange(event: any) {
-    this, this.selectedMonth = event.target.value;
+    this.selectedMonth = event.target.value;
     this.monthSelected = true;
     this.getFilteredIncomes();
   }
